@@ -29,4 +29,4 @@ app.put('/usuario/:id', (req, res) => {
 })
 app.delete('/usuario', (req, res) => res.json('deleteUsuario'))
 
-app.listen(process.env.PORT, () => console.log(`Escuchando el puerto 3000`))
+app.listen(process.env.PORT, () => console.log(`Escuchando el puerto ${process.env.PORT}`))
