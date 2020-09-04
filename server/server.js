@@ -11,7 +11,7 @@ const bodyParser = require('body-parser')
 app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
 app.use(bodyParser.json());
-app.use(require('./routes/index'))
+app.use(require('./routes/index.routes'))
 
 // hablitar la caperta public
 app.use( express.static(path.resolve(__dirname, '../public')));  

@@ -1,4 +1,4 @@
-const Usuario = require('../models/usuario')
+const Usuario = require('../models/usuario.model')
 const bcrypt = require('bcrypt');
 const express = require('express');
 const _ = require('underscore');
